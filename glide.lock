@@ -1,41 +1,50 @@
-hash: e6259c67bcddae25f52212c996b1b6c0f39a510831ede4a4c45ae8aa586991da
-updated: 2017-10-20T03:56:26.229490655-04:00
+hash: 4defbd11a166730afc26d6ec2f605b0deeb5f740fdc5c497f2a60c0ecac0a056
+updated: 2019-01-15T15:01:37.754754-05:00
 imports:
 - name: github.com/bsm/sarama-cluster
-  version: f5faed7d69e89983b631e354705c1a0b4385968d
-  repo: https://github.com/mathpl/sarama-cluster.git
+  version: c618e605e15c0d7535f6c96ff8efbb0dba4fd66c
 - name: github.com/codegangsta/cli
-  version: a14d7d367bc02b1f57d88de97926727f2d936387
+  version: cfb38830724cc34fedffe9a2a29fb54fa9169cd1
+- name: github.com/DataDog/zstd
+  version: 1e382f59b41eebd6f592c5db4fd1958ec38a0eba
 - name: github.com/davecgh/go-spew
-  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
   subpackages:
   - spew
 - name: github.com/eapache/go-resiliency
-  version: b86b1ec0dd4209a588dc1285cdd471e73525c0b3
+  version: 487be0453c7b062bff8dcd0ca2570f09e780a9e2
   subpackages:
   - breaker
 - name: github.com/eapache/go-xerial-snappy
-  version: bb955e01b9346ac19dc29eb16586c90ded99a98c
+  version: 776d5712da21bc4762676d614db1d8a64f4238b0
 - name: github.com/eapache/queue
-  version: 44cc805cf13205b55f69e14bcb69867d1ae92f98
+  version: 093482f3f8ce946c05bcba64badd2c82369e084d
 - name: github.com/golang/snappy
-  version: d9eb7a3d35ec988b8585d4a0068e462c27d28380
-- name: github.com/klauspost/crc32
-  version: cb6bfca970f6908083f26f39a79009d608efd5cd
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
 - name: github.com/mathpl/go-tsdmetrics
-  version: 2caf6316c7cfc74ed491818fc7c842f3ad97f34d
+  version: 5f32b115145c471ea6b11790ef4d65bcd6f1285d
+- name: github.com/pierrec/lz4
+  version: 623b5a2f4d2a41e411730dcdfbfdaeb5c0c4564e
+  subpackages:
+  - internal/xxh32
 - name: github.com/rcrowley/go-metrics
-  version: ab2277b1c5d15c3cba104e9cbddbdfc622df5ad8
+  version: 1f30fe9094a513ce4c700b9a54458bbb0c96996c
 - name: github.com/Shopify/sarama
-  version: b0e729b8e95a2ad143570643cf3e9e1bf78a8ff5
-- name: github.com/Sirupsen/logrus
-  version: 4b6ea7319e214d98c938f12692336f7ca9348d6b
+  version: 03a43f93cd29dc549e6d9b11892795c206f9c38c
+- name: github.com/sirupsen/logrus
+  version: f006c2ac4710855cf0f916dd6b77acf6b048dc6e
+- name: github.com/urfave/cli
+  version: cfb38830724cc34fedffe9a2a29fb54fa9169cd1
+- name: golang.org/x/crypto
+  version: d172538b2cfce0c13cee31e647d0367aa8cd2486
+  subpackages:
+  - ssh/terminal
 - name: golang.org/x/net
-  version: daba796358cd2742b75aae05761f1b898c9f6a5c
+  version: bb807669a61aca6092d8137da1fab2150bb96ad7
   subpackages:
   - context
 - name: golang.org/x/sys
-  version: 002cbb5f952456d0c50e0d2aff17ea5eca716979
+  version: 13d03a9a82fba647c21a0ef8fba44a795d0f0835
   subpackages:
   - unix
 testImports: []
